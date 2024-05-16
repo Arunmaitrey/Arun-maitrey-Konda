@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <img src="amk-vector-logo-design-creative-600nw-2262592163.jpg.webp"  alt="">
+        <h1>Billing details</h1>
+        <hr>
+        <h2>Customer details</h2>
+        <p>Name: <input type="text" name="name"></p>
+        <p>
+            <fieldset>
+                <legend>Gender</legend>
+            Male <input type="radio" name="gender" id="male">
+            Famale <input type="radio" name="gender" id="female">
+        </p>
+        </fieldset>
+       <p>Address: <textarea name="address" id="address" rows="10" cols="100"></textarea></p>
+        <p>Email: <input type="text" name="email" id="email" ></p>
+        <p>Pincode <input type="number" name="pin" id="pin"></p>
+        <hr>
+        <h2>Payment details</h2>
+        <p>Cards type: <select name="card" id="card">
+            <option value="ruppay">Rupays</option>
+            <option value="master">Master</option>
+            <option value="visa">Visa</option>
+        </select></p>
+        <p>Exp: <input type="date" name="date" id="date"></p>
+        <p>Cvv: <input type="password" name="cvv" id="cvv"></p>
+        <input type="submit" value="Pay">
+    </form>
+</div>
+</body>
+</html>
