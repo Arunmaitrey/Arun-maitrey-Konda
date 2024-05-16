@@ -1,0 +1,101 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: larger;
+    color: white;
+    text-align: center;
+    margin-right: 50%;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+h3{
+    font-size: larger;
+    color: white;
+    text-align: center;
+    margin-right: 50%;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.button{
+    text-align: center;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    padding: 7px 100px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 17%;
+}
+a.button:hover {
+    background-color: #0e71a0;
+}
+.button1{
+    text-align: center;
+    background-color:rgb(0, 168, 229);
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    padding: 7px 100px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 17%;
+}
+a.button1:hover{
+    background-color: #2c18e2;
+}
+.para{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(143, 143, 143);
+    text-indent: 240px;
+}
+.para1{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    text-indent: 240px;
+}
+.button2{
+    border: 20px;
+    border-color: aliceblue;
+    text-align: center;
+    background-color:wheat;
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    padding: 7px 100px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 17%;
+}
